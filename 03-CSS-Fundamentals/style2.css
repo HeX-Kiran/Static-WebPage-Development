@@ -1,0 +1,111 @@
+body{
+    border: 5px solid black;
+    font-family: sans-serif;
+    width: 1000px;
+    
+    margin: 100px auto;
+    
+}
+
+
+
+
+
+header{
+    background-color: rgb(219, 217, 213);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+/* h2::after{
+    content: "Sale";
+    padding: 3px 20px;
+    background-color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+} */
+
+header > h2{
+    margin: 0;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.shipping{
+    font-size: 15px;
+    color: rgb(197, 175, 146);
+}
+a:link{
+    color: black;
+    font-weight: bold;
+   
+}
+
+.button{
+    margin: 0px;
+    border: 0px solid black;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+
+}
+
+.button:hover{
+    background-color: white;
+    color:black;
+    outline: 2px solid black;
+    
+}
+
+.colour :is(.red,.yellow,.blue,.green,.black){
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.colour .red{
+    margin-left: 0;
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+
+/* LAYOUTS */
+
+.pic{
+    float: left;
+}
+
+.product-info{
+    box-sizing: border-box;
+    float: left;
+    margin-left: 30px;
+    
+}
+.shipping{
+    float: right;
+    
+}
+.product-details{
+    float: left;
+    margin-left: 30px;
+}
