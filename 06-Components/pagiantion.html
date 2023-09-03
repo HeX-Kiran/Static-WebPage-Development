@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: whitesmoke;
+        }
+
+        .pagination{
+            width: 700px;
+            margin: 100px auto;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .btn{
+            height: 40px;
+            width: 40px;
+            padding: 10px;
+            border-radius: 50%;
+            border :1.5px solid #087f5b;
+           
+        }
+        .arrow-icon{
+            height: 15px;
+            width: 15px;
+            transform: translate(0,10%);
+            
+            
+        }
+
+        .number{
+            color: #868e96;
+        }
+
+       
+        .number:hover{
+            
+            padding: 5px 10px 5px 10px;
+            
+            background-color: #087f5b;
+            color: white;
+            border-radius: 50%;
+            cursor: pointer;
+            
+        }
+
+        .btn:hover{
+            background-color: #087f5b;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section class="pagination">
+        <button class="btn left--btn">
+            <!-- left arrow icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrow-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+              </svg>
+              
+              
+              
+        </button>
+        
+        <span class="number">1</span>
+        <span class="number">2</span>
+        <span class="number">3</span>
+        <span class="number">4</span>
+        <span class="number">5</span>
+        <span class="number">6</span>
+        <span class="dots">......</span>
+        <span class="number">23</span>
+        
+        <button class="btn right--btn">
+            <!-- right arrow icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrow-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+              </svg>
+              
+              
+        </button>
+    </section>
+</body>
+</html>
