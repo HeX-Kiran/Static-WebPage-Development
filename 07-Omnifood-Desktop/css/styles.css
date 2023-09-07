@@ -466,3 +466,86 @@ blockquote{
     transform: scale(1.1);
 }
 /**************************************/
+
+/**************************************/
+/*Pricing Section */
+
+.pricing-heading h3{
+    display: inline-block;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.pricing-body{
+    padding: 9.6rem 10rem;
+}
+
+
+
+.card{
+    border: 2px solid #f6790b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.6rem;
+    padding: 4rem 0;
+}
+
+.card h3{
+    text-transform: uppercase;
+    color: #f6790b;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.money-card-heading{
+    width: 100%;
+    text-align: center;
+}
+
+.money{
+    font-size: 6.6rem;
+    margin: 1.8rem;
+}
+
+.money-desc{
+    display: block;
+    font-size: 1.8rem;
+    
+}
+
+.money-attributes{
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+    padding: auto;
+}
+
+
+
+.money-attribute ion-icon{
+    font-size: 3.6rem;
+    color: #f6790b;
+    margin-right: 3rem;
+}
+
+.money-attribute span{
+    font-size: 2.2rem;
+}
+
+
+.pricing-footer{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+/**************************************/
