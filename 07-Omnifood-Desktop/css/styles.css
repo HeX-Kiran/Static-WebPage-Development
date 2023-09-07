@@ -245,7 +245,7 @@ header img{
 
 
 /**************************************/
-/*How it work Section */
+/*Meal Section */
 
 .section-meal{
     padding: 4.2rem 0;
@@ -258,21 +258,211 @@ header img{
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
+.tag{
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+    color: black;
+    padding: 0.4rem 0.6rem;
+    display: inline-block;
+    border-radius: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+
+.tag--green{
+    background-color: #40c057;
+}
+.tag--lightgreen{
+    background-color: #69db7c;
+}
+.tag--yellow{
+    background-color: #fcc419;
+}
+
+.tag-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+    
+.meal-content{
+    padding:3rem 3.2rem 4.6rem 5rem;
+
+}
+
+.meals{
+    border-radius: 1.2rem;
+    box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.075) ;
+    overflow: hidden;
+    cursor: pointer;
+    transition:all 0.4s;
+}
+
+.meals:hover{
+    transform: translateY(-2rem);
+    box-shadow: 0 3.2rem 4.6rem rgba(0, 0, 0, 0.085) ;
+
+}
+
+
 
 .meals img{
     width: 100%;
 }
 
 .meal-attributes{
-    margin-top: 2.4rem;
+    margin-top: 3.2rem;
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1.8rem;
 }
 
 .meal-attribute{
     font-size: 1.6rem;
+    color: #212529;
+    display: flex;
+    align-items: center;
+    
+    gap: 1.8rem;
 }
 
+.icon{
+    font-size: 1.8rem;
+    color: #e67e22;
+    
+}
+
+.diet{
+    padding: 0.2rem 2.4rem 1.2rem;
+}
+
+.list-diets{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.list-diet{
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.list-diet span{
+    font-size: 1.8rem;
+}
+
+.diet-icon{
+    font-size: 1.8rem;
+    color: #e67e22;
+}
+
+.all-recipe a:link,
+.all-recipe a:visited{
+   display: block;
+    color: #e67e22;
+    text-align: center;
+    font-size: 1.8rem;
+   text-decoration: none;
+}
+
+.all-recipe a:hover,
+.all-recipe a:active{
+    text-decoration: underline;
+    color: #f6790b;
+}
+
+/**************************************/
+
+
+/**************************************/
+/*Testimonial Section */
+
+    /* Testimonial-Section */
+
+.section-testimonial{
+    background-color: #fdf2e9;
+}
+
+.testimonial-gallery{
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+    column-gap: 4.4rem;
+    padding: 2rem ;
+}
+
+.testimonial-content{
+    /* margin-top: 15rem; */
+    margin-left: 8rem;
+}
+
+.testimonial-content h2{
+    display: inline-block;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.testimonial-content p{
+    font-size: 4.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 7rem;
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 7.2rem;
+
+}
+
+.testimonial img{
+    width: 20%;
+    border-radius: 100%;
+}
+
+blockquote{
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.testimonial p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #777;
+}
+
+    /* Gallery Section */
+
+.gallery-box{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    
+}
+
+.gallery-box figure{
+    overflow: hidden;
+}
+
+.gallery-box img{
+    display: block;
+    width: 100%;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
 /**************************************/
