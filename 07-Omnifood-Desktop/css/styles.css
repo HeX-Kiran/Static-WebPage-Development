@@ -184,7 +184,7 @@ header img{
     display: inline-block;
     color: #e67e22;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -470,6 +470,10 @@ blockquote{
 /**************************************/
 /*Pricing Section */
 
+.section-pricing{
+    margin-top: 10rem;
+}
+
 .pricing-heading h3{
     display: inline-block;
     color: #e67e22;
@@ -481,18 +485,20 @@ blockquote{
 }
 
 .pricing-body{
-    padding: 9.6rem 10rem;
+    padding: 8.4rem 12rem;
+    
 }
 
 
 
 .card{
-    border: 2px solid #f6790b;
+    border: 2px solid #ffe7d3;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3.6rem;
+    gap: 5.2rem;
     padding: 4rem 0;
 }
 
@@ -512,7 +518,9 @@ blockquote{
     font-size: 6.6rem;
     margin: 1.8rem;
 }
-
+ .money .dollar{
+    font-size: 3.6rem;
+ }
 .money-desc{
     display: block;
     font-size: 1.8rem;
@@ -530,22 +538,195 @@ blockquote{
 }
 
 
+.money-attribute{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
 .money-attribute ion-icon{
     font-size: 3.6rem;
     color: #f6790b;
-    margin-right: 3rem;
+    
+    
 }
 
 .money-attribute span{
+    font-size: 2rem;
+}
+
+.card a{
     font-size: 2.2rem;
+    padding: 1.6rem 1.8rem;
+    border-radius: 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.card a:hover{
+    background-color: #40c057;
+}
+
+
+
+.special-card{
+    border: none;
+    background-color: #fff3eb;
+    position: relative;
+    overflow: hidden;
+}
+
+.special-card::after{
+    content: "BEST VALUE";
+    position: absolute;
+    top: 6%;
+    right: -15%;
+    font-size: 1.6rem;
+    background-color: #ffd43b;
+    color: #000;
+    font-weight: 700;
+    padding: 1.2rem 8rem;
+    rotate: 45deg;
+}
+
+.disclaimer{
+    text-align: center;
+    font-size: 1.8rem;
 }
 
 
 .pricing-footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     align-items: center;
+    margin-top: 10rem;
+    column-gap: 5.2rem;
     /* justify-content: center; */
 }
+
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.footer-card ion-icon{
+    padding: 1.8rem 1.8rem;
+    font-size: 3.6rem;
+    background-color: #f8e4d4;
+    color: #f6790b;
+    border-radius: 50%;
+}
+
+.footer-card p{
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+/**************************************/
+/**************************************/
+/*Pricing Section */
+
+.section-cta{
+    padding: 9.8rem 0;
+    color: #45260a;
+   
+}
+
+.cta-content{
+    background-image: linear-gradient(to right bottom,#f4a45e,#ff8419);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.cta-text-box{
+    padding: 3.6rem 3.6rem 3.6rem  5.6rem;
+}
+
+.cta-text-box h1{
+    color: #45260a;
+}
+
+.cta-description{
+    font-size: 2rem;
+    line-height: 1.8;
+    letter-spacing: 0.1rem;
+    margin-bottom: 4.4rem;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    align-items: center;
+}
+
+
+
+label{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+input,select{
+    width: 90%;
+    padding: 1.8rem 1.8rem;
+    font-size:2rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #f8d8bd;
+    font-weight: 500;
+    color: #444;
+    font-family: inherit;
+}
+
+input:focus,select:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+
+::placeholder{
+    color: #888;
+}
+
+.form-submit{
+    align-self: flex-end;
+    
+}
+.submit,
+.submit:visited
+{
+    font-weight: 700;
+    background-color: #45260a;
+    color: white;
+    font-size: 2.2rem;
+    transition: all 0.3s;
+    font-family: inherit;
+}
+
+.submit:hover,
+.submit:active
+{
+    color:#45260a;
+    background-color: white;
+}
+
+
+
+.cta-img-box{
+    background-image: linear-gradient(to right bottom,rgba(235, 145, 67, 0.2),rgba(248, 116, 0, 0.2)), url(../img/eating.jpg);
+    background-size: cover;
+    height: 100%;
+    
+}
+
+
+
+
 
 /**************************************/

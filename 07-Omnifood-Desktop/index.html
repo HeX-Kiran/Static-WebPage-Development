@@ -250,11 +250,12 @@
                 <h3>Pricing</h3>
                 <h1 class="primary-heading">Eating well without breaking the bank</h1>
             </div>
-            <div class="pricing-body grid grid--col-2">
+            <div class="pricing-body grid grid--col-2 grid--col-gap-lg">
+                <!-- Starter Pack -->
                 <div class="card">
                     <div class="money-card-heading">
                         <h3 class="secondary-heading">Starter</h3>
-                        <h1 class="money">399 $</h1>
+                        <h1 class="money">399 <span class="dollar">$</span></h1>
                         <p class="money-desc">per month. That's just $13 per meal!</p>
                     </div>
                     <ul class="money-attributes">
@@ -278,28 +279,114 @@
 
                         <li class="money-attribute">
                             <ion-icon name="close-outline"></ion-icon>
+                            <span> Get access to latest recipes</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn--1">Start eating well</a>
+                </div>
+
+                <!-- Complete Pack -->
+                <div class="card special-card">
+                    <div class="money-card-heading">
+                        <h3 class="secondary-heading">Starter</h3>
+                        <h1 class="money">649 <span class="dollar">$</span></h1>
+                        <p class="money-desc">per month. That's just $11 per meal!</p>
+                    </div>
+                    <ul class="money-attributes">
+                        <li class="money-attribute">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span><strong>2</strong> meals per day</span>
+                            
+                        </li>
+
+                        <li class="money-attribute">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Order <strong>24/7</strong></span>
+                            
+                        </li>
+
+                        <li class="money-attribute">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Delivery is free</span>
+                            
+                        </li>
+
+                        <li class="money-attribute">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span> Get access to latest recipes</span>
                             
                             
                         </li>
                     </ul>
-                </div>
-                <div class="card">
-                    card-2
+                    <a href="#" class="btn btn--1">Start eating well</a>
                 </div>
             </div>
+
+            <p class="disclaimer">Prices include all applicable taxes. You can cancel at any time. Both plans include the following:
+            </p>
             <div class="pricing-footer">
                 <div class="footer-card">
-                    footer-card1
+                    <ion-icon name="infinite-outline"></ion-icon>
+                    <h3 class="teritory-heading">Never cook again!</h3>
+                    <p>Our subscriptions cover 365 days per year, even including major holidays.</p>
                 </div>
                 <div class="footer-card">
-                    footer-card2
+                    <ion-icon name="nutrition-outline"></ion-icon>
+                    <h3 class="teritory-heading">Local and organic</h3>
+                    <p>Our cooks only use local, fresh, and organic products to prepare your meals.</p>
                 </div>
                 <div class="footer-card">
-                    footer-card3
+                    <ion-icon name="leaf-outline"></ion-icon>
+                    <h3 class="teritory-heading">No waste</h3>
+                    <p>All our partners only use reusable containers to package all your meals.</p>
                 </div>
                 <div class="footer-card">
-                    footer-card4
+                    <ion-icon name="pause-outline"></ion-icon>
+                    <h3 class="teritory-heading">Pause anytime</h3>
+                    <p>Going on vacation? Just pause your subscription, and we refund unused days.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text-box">
+                    <h1 class="primary-heading">Get your first meal for free</h1>
+                    <p class="cta-description">
+                        Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
+                    </p>
+                    <form action="#">
+                        <!-- Username -->
+                        <div class="form-input">
+                            <label for="username">Full Name</label>
+                            <input type="text" id="username" placeholder="Kiran Surya" required>
+                        </div>
+                        <!-- Email -->
+                        <div class="form-input">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="kiran@example.com" required>
+                        </div>
+                        <!-- Where did you hear us -->
+                        <div class="form-input">
+                            <label for="where">Where did you hear from us</label>
+                            <select name="" id="where" required>
+                                <option value="">Please choose one option:</option>
+                                <option value="Friends and Family">Friends and Family</option> 
+                                <option value="Youtube">Youtube</option>
+                                <option value="Google">Google</option>
+                                <option value="Other">Others</option>
+                            </select>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class="form-submit">
+                            <input type="submit" value="Sign up now!" class="submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="cta-img-box" role="image" aria-label="Women having variety of food"></div>
+                
             </div>
         </div>
     </section>
