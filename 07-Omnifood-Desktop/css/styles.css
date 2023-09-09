@@ -85,7 +85,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #fdf2e9;
-    padding: 0 4.6rem;
+    padding: 4.6rem 4.6rem;
 }
 
 header img{
@@ -96,6 +96,7 @@ header img{
 /**************************************/
 /*Navigation Section */
 .main-nav{
+   
     display: flex;
     gap: 4.6rem;
     align-items: center;
@@ -108,7 +109,7 @@ header img{
 .main-nav-link:visited
 {
     color: #333333;
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-decoration: none;
     display: inline-block;
     font-weight: 500;
@@ -135,7 +136,7 @@ header img{
 .main-nav-link.cta-main-nav:hover,
 .main-nav-link.cta-main-nav:active{
     
-    background-color: orangered;
+    background-color: #40c057;
     font-size: 1.8rem;
     
 }
@@ -198,7 +199,7 @@ header img{
 }
 
 .how-description{
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.6;
     color: #555;
     margin-top: 4.2rem;
@@ -248,7 +249,7 @@ header img{
 /*Meal Section */
 
 .section-meal{
-    padding: 4.2rem 0;
+    padding: 9.6rem 0;
 }
 .section-title{
     display: inline-block;
@@ -627,7 +628,7 @@ blockquote{
 /*Pricing Section */
 
 .section-cta{
-    padding: 9.8rem 0;
+    padding: 9.8rem 0 12.2rem;
     color: #45260a;
    
 }
@@ -724,9 +725,86 @@ input:focus,select:focus{
     height: 100%;
     
 }
+/**************************************/
 
+/**************************************/
+/*Footer Section */
 
+footer{
+    padding: 12.2rem 0;
+    border-top: 2px solid #eee;
+}
 
+.footer{
+    
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+    gap: 2rem;
+    color: #888;;
+    
+}
+
+.brand-logo img{
+    width: 70%;
+    margin-bottom: 3.6rem;
+}
+
+.social-logo{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.social-logo ion-icon{
+    font-size: 2.8rem;
+    color: #888;
+}
+
+.copyright{
+    margin-top: 6.6rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.footer-heading{
+    font-size: 2rem;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 4.6rem;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    gap: 4.6rem;
+}
+
+address p {
+    font-size: 1.6rem;
+    font-style: normal;
+    color: #555;
+}
+
+address a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-style: normal;
+    color: #666;
+
+}
+
+.footer-nav-links{
+    list-style: none;
+    font-size: 1.7rem;
+    
+}
+
+.footer-nav-links li>a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
 
 
 /**************************************/
+

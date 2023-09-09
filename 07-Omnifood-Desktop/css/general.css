@@ -103,7 +103,7 @@ body{
 
 
 .btn--1:hover,.btn--1:active{
-    background-color: orangered;
+    background-color: #40c057;
     font-size: 1.7rem;
 }
 
@@ -164,6 +164,9 @@ body{
     flex-direction: column;
 }
 
+.flex--gap--md{
+    gap: 2.4rem;
+}
 /**************************************/
 
 
